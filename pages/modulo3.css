@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url(pages_img/bodybackground.jpg);
+    background-size: cover;
+}
+.header {
+    width: 75%;
+    height: 10vh;
+    margin: 1vh 1% 20px auto;
+    background: linear-gradient(135deg, #07078d, #00aaff, #00c4ff, #aaffff);
+    border-radius: 20px;
+    overflow: hidden;
+}
+nav{
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.links{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+.links ul {
+    display: flex;
+    gap: 15px;
+}
+.links ul li{    
+    display: inline-block;
+    background: linear-gradient(to bottom right, #00e1ff, #000000);
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.links ul li a{    
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    color: aliceblue;
+}
+.links ul li :hover{
+    display: inline-block;
+    background: linear-gradient(to bottom right, #00ff95, #ffffff);
+    border-radius: 10px;
+    border: solid black 1px;
+    color: #000000;
+}
+.cg {
+    height: 100vh;
+    width: 20vw;
+    border-radius: 2px;
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+    background: linear-gradient(to bottom right, #7700ff, #00aaff);
+    box-sizing: border-box;
+}
+.inicio {
+    width: 100%;
+    display: inline-block;
+    padding: 1%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    border: 1px solid #000000;
+    background: linear-gradient(to bottom right, #d400ff, #00aaff);
+    border-radius: 5px;
+    text-align: center;
+}
+.inicio:hover{
+    background: linear-gradient(to bottom right, #a0f9ff, #00aaff);
+}
+.semestre {
+    width: 100%;
+    display: inline-block;
+    padding: 1%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    border: 1px solid #000000;
+    background: linear-gradient(to bottom right, #d3d3d3, #00aaff);
+    border-radius: 5px;
+    text-align: center;
+}
+.semestre:hover{
+    background: linear-gradient(to bottom right, #d5e263, #00aaff);
+}
+.curso {
+    width: 95%;
+    display: inline-block;
+    padding: 1%;
+    margin: 1% 2.5% 1% 2.5%;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #000000;
+    background: linear-gradient(to bottom right, #929292, #2600ff98);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.curso:hover {
+    background: linear-gradient(to bottom right, #929292, #2dcf35);
+    color: rgb(255, 255, 255);
+}
+.primer-semestre {
+    width: 75%;
+    padding: 2%;
+    margin: 20px 1%20px auto;
+    border: solid 1px #000000;
+    border-radius: 20px;
+    background: linear-gradient(blue, rgb(192, 253, 255));;
+    color: #000000;
+}
+.contenido{
+    width: 80%;
+    margin: auto;
+}
+.g{
+    margin: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(0, 17, 255), #00ffff);
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 10px;
+    color: #000000;
+}
+.segundo-semestre {
+    width: 75%;
+    padding: 2%;
+    margin: 20px 1% 20px auto;
+    border: solid 1px #000000;
+    border-radius: 20px;
+    background: linear-gradient(rgb(192, 253, 255), rgb(59, 106, 206));;
+    color: #000000;
+}
